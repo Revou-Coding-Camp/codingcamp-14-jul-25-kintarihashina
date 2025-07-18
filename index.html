@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Project</title>
-    <Link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <img class="logo" src="logo magenta.jpg" width="60" height="60" title="logo">
@@ -19,12 +19,12 @@
     <div class="Border" style="border: 1px solid black"></div>
     
     <h2 id="myH2">Welcome, please enter your name below</h2>
-
-    <label>Username: </label>
-    <input id="myText" minlength="5" maxlength="10"><br>
-    <button id="mySubmit">Submit</button>
-
-    <section>
+  <section>
+    <label>Username:</label>
+    <input id="myText" maxlength="10" minlength="4" required><br>
+    <button id="mySubmit">Submit</button><br>
+    </section>
+  <section>
     <img class="banner" src="Banner magenta.jpg" height="500">
   </section>
   <section>
@@ -40,7 +40,7 @@
   <section>
     <img class="cnc2" src="cnc 2.jpg" height="100">
   </section>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
